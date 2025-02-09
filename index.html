@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" loop>
+        <source src="/mnt/data/boba date   cute background music (royalty free).mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="play-music-button" onclick="playMusic()" style="position: absolute; top: 10px; right: 10px; font-size: 16px;">Play Music 🎶</button>
+
+    <div id="container">
+        <div id="image-container"></div>
+        <div id="text-container">
+            <div id="question">Will you be my valentine?</div>
+            <div id="options">
+                <button id="yes-button" onclick="selectOption('yes')">Yes</button>
+                <button id="no-button" onclick="selectOption('no')">No</button>
+            </div>
+            <div id="celebratory-text">YAAAY. I love you so much babie, can't wait to see you! ❤️</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
